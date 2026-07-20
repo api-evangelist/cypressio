@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.cypress.io/cloud/integrations/data-extract-api
+docs: https://docs.cypress.io/cloud/integrations/data-extract-api
+summary:
+  types: [apiKey]
+  api_key_in: [query]
+  oauth2_flows: []
+schemes:
+- name: OrganizationApiKey
+  type: apiKey
+  in: query
+  parameter: token
+  applies_to: Cypress Cloud Data Extract API (enterprise reporting)
+  provisioning: >-
+    An organization API key is generated under Integrations -> Enterprise API in
+    Cypress Cloud and passed on every request as the `token` query parameter.
+  scope: Enterprise plan subscription required.
+  sources: [https://docs.cypress.io/cloud/integrations/data-extract-api]
+- name: RecordKey
+  type: apiKey
+  in: other
+  parameter: record key
+  applies_to: Recording test runs to Cypress Cloud (cypress run --record --key)
+  provisioning: >-
+    A per-project record key issued in Cypress Cloud, supplied to the runner via
+    --key or the CYPRESS_RECORD_KEY environment variable. Not part of the REST
+    reporting API; documented here for completeness.
+  sources: [https://docs.cypress.io/app/references/command-line]
