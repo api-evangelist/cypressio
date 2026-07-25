@@ -1,0 +1,39 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.cypress.io/app/references/command-line
+name: Cypress CLI
+summary: >-
+  The Cypress command-line interface ships with the `cypress` npm package and
+  drives running, opening, verifying, and managing the local test runner, plus
+  recording runs to Cypress Cloud.
+binary: cypress
+package: packages/cypressio-packages.yml
+install:
+- npm install cypress --save-dev
+- yarn add cypress --dev
+- pnpm add -D cypress
+invoke: npx cypress <command>
+commands:
+- name: cypress open
+  description: Open the Cypress interactive Test Runner (App) in the current project.
+- name: cypress run
+  description: Run Cypress tests headlessly from the command line (CI-friendly).
+  key_flags:
+  - "--record --key <record-key>: record the run to Cypress Cloud"
+  - "--parallel: run tests in parallel across CI machines"
+  - "--browser <name>: choose the browser to run in"
+  - "--spec <glob>: run a subset of spec files"
+  - "--group / --ci-build-id: organize parallel/grouped Cloud runs"
+- name: cypress verify
+  description: Verify that Cypress is installed correctly and executable.
+- name: cypress info
+  description: Print information about Cypress and detected browsers.
+- name: cypress version
+  description: Print the installed Cypress binary and package versions.
+- name: cypress cache
+  description: Manage the global Cypress binary cache (path, list, prune, clear).
+- name: cypress install
+  description: Install the Cypress binary matching the npm package version.
+key_flows:
+- Record a CI run to Cypress Cloud with `cypress run --record --key <key>`.
+- Run tests in parallel with `cypress run --record --parallel`.

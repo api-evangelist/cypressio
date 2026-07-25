@@ -1,0 +1,41 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.cypress.io/app/references/changelog
+scheme: semver
+current_version: 15.18.1
+notes: >-
+  Recent-window capture of the Cypress App changelog. The live changelog is the
+  source of truth; only the most recent entries are structured here.
+entries:
+- version: 15.18.1
+  date: '2026-07-07'
+  breaking: false
+  highlights: Performance improvements for binary verification; fixes for browser crashes during video recording.
+- version: 15.18.0
+  date: '2026-06-23'
+  breaking: false
+  highlights: Added removeSRIAttributes configuration option; fixed memory issues with repeated uncaught exceptions.
+- version: 15.17.0
+  date: '2026-06-09'
+  breaking: false
+  highlights: Recognized Bun as a package manager; improved command log performance during long tests.
+- version: 15.16.0
+  date: '2026-05-26'
+  breaking: false
+  highlights: Cypress Cloud sign-up supported in the desktop app; automated browser-based authentication flow.
+- version: 15.15.0
+  date: '2026-05-12'
+  breaking: false
+  highlights: Deprecated the cy.end() command; fixed proxy handling of empty responses with Content-Length 0.
+- version: 15.14.2
+  date: '2026-04-29'
+  breaking: false
+  highlights: Performance optimization for command log scrolling; fixes for multi-alias wait operations.
+- version: 15.14.1
+  date: '2026-04-21'
+  breaking: false
+  highlights: Fixed a memory leak in open mode affecting garbage collection of test data.
+- version: 15.14.0
+  date: '2026-04-16'
+  breaking: false
+  highlights: Added TypeScript 6 and Vite 8 support for component testing.

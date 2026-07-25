@@ -1,0 +1,41 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/package/cypress
+packages:
+- language: javascript
+  registry: npm
+  name: cypress
+  url: https://www.npmjs.com/package/cypress
+  install: npm install cypress --save-dev
+  version: 15.18.1
+  license: MIT
+  official: true
+  notes: Core Cypress test runner (App + CLI); homepage https://cypress.io, repo cypress-io/cypress.
+- language: javascript
+  registry: npm
+  name: "@cypress/schematic"
+  url: https://www.npmjs.com/package/@cypress/schematic
+  install: ng add @cypress/schematic
+  official: true
+  notes: Angular schematic to add Cypress to Angular CLI projects.
+- language: javascript
+  registry: npm
+  name: "@cypress/webpack-preprocessor"
+  url: https://www.npmjs.com/package/@cypress/webpack-preprocessor
+  install: npm install --save-dev @cypress/webpack-preprocessor
+  official: true
+  notes: Webpack preprocessor for bundling Cypress spec files.
+- language: javascript
+  registry: npm
+  name: "@cypress/vite-dev-server"
+  url: https://www.npmjs.com/package/@cypress/vite-dev-server
+  install: npm install --save-dev @cypress/vite-dev-server
+  official: true
+  notes: Vite dev server for Cypress component testing.
+- language: javascript
+  registry: npm
+  name: "@cypress/grep"
+  url: https://www.npmjs.com/package/@cypress/grep
+  install: npm install --save-dev @cypress/grep
+  official: true
+  notes: Filter/select Cypress tests by title or tag.

@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.cypress.io/app/references/changelog
+versioning:
+  scheme: semver
+  current: 15.18.1
+  docs: https://docs.cypress.io/app/references/changelog
+deprecation:
+  policy_url: https://docs.cypress.io/app/references/changelog
+  sunset_header: false
+  notes: >-
+    Cypress deprecates commands/options through the changelog and migration
+    guides rather than HTTP Sunset/Deprecation headers. Example: cy.end() was
+    deprecated in 15.15.0 (2026-05-12).
+  recent_deprecations:
+  - item: cy.end()
+    version: 15.15.0
+    date: '2026-05-12'
+status_page: https://www.cypressstatus.com/
+status_provider: Atlassian Statuspage
+migration_guide: https://docs.cypress.io/app/references/migration-guide

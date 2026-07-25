@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of Cypress hosts
+notes: >-
+  /.well-known probe of Cypress hosts. www.cypress.io returns a 200 for
+  /.well-known/security.txt but the body is empty (0 bytes), so no RFC 9116
+  policy/contact data is available and no raw file was saved. cloud.cypress.io
+  returns the single-page-app HTML shell for the path (not a real security.txt).
+hosts:
+- host: https://www.cypress.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    empty: true
+    file: null
+- host: https://cloud.cypress.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    note: returns SPA HTML shell, not a security.txt
+    file: null
+- host: https://docs.cypress.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404

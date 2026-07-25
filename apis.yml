@@ -1,23 +1,126 @@
 aid: cypressio
 name: Cypress.io
-description: Cypress.io is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Cypress.io, Inc. builds Cypress, an open-source, JavaScript-based end-to-end
+  and component testing framework that runs tests directly in the browser with
+  time-travel debugging, automatic waiting, and cross-browser support. Its
+  commercial Cypress Cloud service adds test parallelization, smart
+  orchestration, analytics, Test Replay, UI Coverage, and automated
+  accessibility checks, plus an enterprise Data Extract API for exporting test
+  and run analytics in CSV, JSON, or XLSX. Cypress is widely adopted across
+  CI/CD pipelines for reliable, developer-friendly web application testing.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/8908513?v=4
 url: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enrichment-pipeline
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-apis: []
+- Testing
+- End-to-End Testing
+- Test Automation
+- Quality Assurance
+- Developer Tools
+- CI/CD
+- Accessibility
+- JavaScript
+apis:
+- name: Cypress Cloud Data Extract API
+  description: >-
+    Enterprise reporting API that returns test and run analytics and raw
+    test-result data from Cypress Cloud. Requests are HTTP GET with an
+    organization API key passed as the token query parameter, and data is
+    returned as CSV, JSON, or XLSX filtered by report_id, date range, projects,
+    and branch.
+  humanURL: https://docs.cypress.io/cloud/integrations/data-extract-api
+  baseURL: https://cloud.cypress.io/enterprise-reporting/report
+  tags:
+  - Reporting
+  - Analytics
+  - Testing
+  properties:
+  - type: Documentation
+    url: https://docs.cypress.io/cloud/integrations/data-extract-api
+  - type: Authentication
+    url: authentication/cypressio-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: TrustCenter
+  url: security/cypressio-trust-center.yml
+- type: Compliance
+  url: https://trust.cypress.io/
+- type: DeveloperPortal
+  url: https://docs.cypress.io/
+- type: Documentation
+  url: https://docs.cypress.io/
+- type: APIReference
+  url: https://docs.cypress.io/api/table-of-contents
+- type: GettingStarted
+  url: https://docs.cypress.io/app/get-started/why-cypress
+- type: Support
+  url: https://www.cypress.io/support
+- type: Blog
+  url: https://www.cypress.io/blog
+- type: GitHubOrganization
+  url: https://github.com/cypress-io
+- type: Roadmap
+  url: https://www.cypress.io/roadmap
+- type: Pricing
+  url: https://www.cypress.io/pricing
+- type: SignUp
+  url: https://cloud.cypress.io/signup
+- type: Login
+  url: https://cloud.cypress.io/login
+- type: TermsOfService
+  url: https://www.cypress.io/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.cypress.io/privacy-policy
+- type: StatusPage
+  url: https://www.cypressstatus.com/
+- type: ChangeLog
+  url: https://docs.cypress.io/app/references/changelog
+- type: LLMsTxt
+  url: llms/cypressio-llms.txt
+- type: Packages
+  url: packages/cypressio-packages.yml
+- type: SDKs
+  url: packages/cypressio-packages.yml
+- type: CLI
+  url: cli/cypressio-cli.yml
+- type: ChangeLog
+  url: changelog/cypressio-changelog.yml
+- type: Lifecycle
+  url: lifecycle/cypressio-lifecycle.yml
+- type: Deprecation
+  url: lifecycle/cypressio-lifecycle.yml
+- type: Authentication
+  url: authentication/cypressio-authentication.yml
+- type: DomainSecurity
+  url: security/cypressio-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
