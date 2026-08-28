@@ -9,6 +9,17 @@ description: >-
   accessibility checks, plus an enterprise Data Extract API for exporting test
   and run analytics in CSV, JSON, or XLSX. Cypress is widely adopted across
   CI/CD pipelines for reliable, developer-friendly web application testing.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
