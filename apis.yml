@@ -79,6 +79,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Website
+  url: https://www.cypress.io/
 - type: TrustCenter
   url: security/cypressio-trust-center.yml
 - type: Compliance
