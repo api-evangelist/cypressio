@@ -43,7 +43,7 @@ x-tier: profiled
 x-tier-reason: enrichment-pipeline
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-09-19'
 tags:
 - Company
 - Testing
@@ -133,6 +133,9 @@ common:
   url: authentication/cypressio-authentication.yml
 - type: DomainSecurity
   url: security/cypressio-domain-security.yml
+- name: MCP Documentation
+  url: https://on.cypress.io/cloud-mcp
+  type: MCPDocumentation
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
