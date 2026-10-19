@@ -84,3 +84,52 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: cypressio-npm-registry
+  label: npm registry
+  partner: npm
+  partner_name: npm registry
+  category: official SDK (JavaScript/TypeScript)
+  type: register
+  channel: package-registry
+  evidence: https://www.npmjs.com/package/@cypress/grep
+  source: edge
+  relationship: distribution-channel
+  contract_reference:
+    register: npm registry (public registry JSON)
+    spec_file: null
+    language: JavaScript/TypeScript
+    packages:
+    - name: '@cypress/grep'
+      version: 7.0.0
+      released: '2026-08-26'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@cypress/grep
+      repo_leg: github-org:cypress-io
+      publisher_leg: email:cypress.io
+      matched_by: domain
+    - name: '@cypress/schematic'
+      version: 6.0.0
+      released: '2026-08-26'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/@cypress/schematic
+      repo_leg: github-org:cypress-io
+      publisher_leg: email:cypress.io
+      matched_by: domain
+    - name: cypress
+      version: 16.2.0
+      released: '2026-10-14'
+      released_field: modified
+      lapsed: false
+      page: https://www.npmjs.com/package/cypress
+      repo_leg: domain:cypress.io
+      publisher_leg: email:cypress.io
+      matched_by: domain
+    current: true
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
