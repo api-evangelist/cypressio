@@ -52,19 +52,6 @@
     builder: unknown (not in the directory record)
   status: not-a-workflow
   arazzo: null
-- slug: cypressio-slack-own
-  label: Slack (own)
-  partner: slack
-  partner_name: Slack (own)
-  category: Slack app
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://slack.com/marketplace/A010PD913CG-cypress
-  source: edge
-  relationship: platform-app
-  status: not-a-workflow
-  arazzo: null
 - slug: cypressio-npm-registry
   label: npm registry
   partner: npm
@@ -304,5 +291,31 @@
     detected_by: sweep-vc-portfolios.py
     detected: '2026-10-21'
     status: Active
+  status: not-a-workflow
+  arazzo: null
+- slug: cypressio-slack-own
+  label: Slack (own)
+  partner: slack
+  partner_name: Slack (own)
+  category: Slack app
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://slack.com/marketplace/A010PD913CG-cypress
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: cypressio-netlify-own
+  label: Netlify (own)
+  partner: netlify
+  partner_name: Netlify (own)
+  category: Testing & QA
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.netlify.com/integrations/cypress/
+  source: edge
+  relationship: platform-app
   status: not-a-workflow
   arazzo: null

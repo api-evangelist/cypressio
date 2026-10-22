@@ -31,6 +31,7 @@ checked:
 - https://www.indexventures.com/companies/
 - https://www.sequoiacap.com/our-companies/
 - https://www.sequoiacap.com/sitemap.xml
+- netlify/integrations/netlify-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: GitHub Marketplace (actions)
@@ -90,23 +91,6 @@ edges:
     builder: unknown (not in the directory record)
   detected_by: sweep-workflow-automation.py
   first_seen: '2026-10-15'
-- partner_name: Slack (own)
-  partner: slack
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://slack.com/marketplace/A010PD913CG-cypress
-  mirror_of: slack/integrations/slack-integration-edges.yml
-  apps:
-  - Cypress
-  listing_count: 1
-  detected: '2026-10-18'
-  detected_by: mirror-platform-listings.py
-  category: Slack app
 - partner_name: npm registry
   partner: npm
   partner_match: register
@@ -406,6 +390,41 @@ edges:
     status: Active
   detected_by: sweep-vc-portfolios.py
   first_seen: '2026-10-21'
+- partner_name: Slack (own)
+  partner: slack
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://slack.com/marketplace/A010PD913CG-cypress
+  mirror_of: slack/integrations/slack-integration-edges.yml
+  apps:
+  - Cypress
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Slack app
+- partner_name: Netlify (own)
+  partner: netlify
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.netlify.com/integrations/cypress/
+  mirror_of: netlify/integrations/netlify-integration-edges.yml
+  apps:
+  - Cypress
+  listing_count: 1
+  detected: '2026-10-22'
+  detected_by: mirror-platform-listings.py
+  category: Testing & QA
+  partner_tier: build-plugin
 source:
 - https://github.com/marketplace?type=actions
 - https://marketplace.atlassian.com/
