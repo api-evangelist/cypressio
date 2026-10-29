@@ -64,6 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cypress.io is a company surfaced as a portfolio company of battery-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Cypress.io, Inc. builds Cypress, an open-source, JavaScript-based end-to-end and component testing framework that runs tests directly in the browser with time-travel debugging, automatic waiting, and cross-browser support. Its commercial Cypress Cloud service adds test parallelization, smart orchestration, analytics, Test Replay, UI Coverage, and automated accessibility checks, plus an enterprise Data Extract API for exporting test and run analytics in CSV, JSON, or XLSX. Cypress is widely adopted across CI/CD pipelines for reliable, developer-friendly web application testing.
 
-Backed by: battery-ventures
+**Areas:** Company · Testing · End-to-End Testing · Test Automation · Quality Assurance · Developer Tools · CI/CD · Accessibility · JavaScript
+
+## Cypress.io on APIs.io
+
+Everything profiled for Cypress.io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cypressio/](https://apis.io/providers/cypressio/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Cypress Cloud Data Extract API](https://apis.io/apis/cypressio/cypress-cloud-data-extract-api/) — Enterprise reporting API that returns test and run analytics and raw test-result data from Cypress Cloud. Requests are HTTP GET with an organization API key…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [cypressio](https://apis.io/servers/cypressio/cypressio/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cypressio Authentication](https://apis.io/security/cypressio/cypressio-authentication/)
+- [Cypressio Domain Security](https://apis.io/security/cypressio/cypressio-domain-security/)
+- [Cypressio Trust Center](https://apis.io/security/cypressio/cypressio-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.cypress.io/)
+- [Documentation](https://docs.cypress.io/)
+- [Getting started](https://docs.cypress.io/app/get-started/why-cypress)
+- [API reference](https://docs.cypress.io/api/table-of-contents)
+- [Pricing](https://www.cypress.io/pricing)
+- [Sign up](https://cloud.cypress.io/signup)
+- [Support](https://www.cypress.io/support)
+- [Changelog](https://docs.cypress.io/app/references/changelog)
+- [Blog](https://www.cypress.io/blog)
+- [Compliance](https://trust.cypress.io/)
+- [Terms of service](https://www.cypress.io/terms-of-use)
+- [Privacy policy](https://www.cypress.io/privacy-policy)
+- [GitHub](https://github.com/cypress-io)
+- [Status](https://www.cypressstatus.com/)
+
+## API Evangelist rating
+
+**Kin Score 37.8** — thin · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 47.4 |
+| Developer ergonomics | 71.4 |
+| Access clarity | 46.1 |
+
+**Agent readiness 14.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cypressio/](https://apis.io/providers/cypressio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cypress.io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cypressio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
